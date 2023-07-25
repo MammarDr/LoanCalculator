@@ -1,0 +1,109 @@
+body {
+    background-color: #333943;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-container { 
+    border-radius: 2px;
+    margin-top: 18px;
+    display: flex;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333943;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title, .form-container  {display: flex;
+    justify-content: center; }
+
+.form {display:flex;
+    flex-direction: column;}
+
+.form1, .form2 {display: flex;
+margin-bottom: 10px;
+border: none;
+
+}
+
+.form2 > input, .form1 > input { 
+    display: block;
+    border-color: #cac8c8;
+    border-width: 1.5px;
+    border-style:solid;
+    border-left: none;
+    outline: 0;
+    padding-right: 10vw;
+    
+}
+
+.form3 > input {
+    border-width: 1.5px;
+    border-color: #cac8c8;
+    border-style:solid;
+    outline:0;
+    margin-bottom: 10px;
+    
+}
+
+input::placeholder {
+    font: 10px sans-serif;
+    line-height: 20px;
+    padding-left: 3px;
+}
+
+
+ .Repayment {
+    padding-right: 12vw;
+    margin-bottom: 0px;
+    
+}
+
+
+.dollarSymbol, .precentegSymbol {
+background-color: #e8ecef;
+display: flex;
+align-items: center;
+border: 1.5px solid #cac8c8;
+}
+
+i.fa-solid.fa-dollar-sign {
+    margin: 1px 6px 0 6px;  
+}
+
+i.fa-solid.fa-percent {
+    margin: 1px 0px 0px 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    min-width: none;
+   
+}
+
+.btn {
+    display: block;
+    padding: 5px 12vw 5px 12vw;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    background-color: #333943;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
